@@ -185,7 +185,7 @@ exec --no-startup-id volumeicon-alsa
 exec --no-startup-id nm-applet
 exec --no-startup-id volumeicon
 exec --no-startup-id /opt/extras.ubuntu.com/touchpad-indicator/bin/touchpad-indicator
-exec_always ~/.random_wp.sh
+exec_always ~/.config/.i3/wp.sh
 
 # start some app
 exec --no-startup-id gnome-screensaver
